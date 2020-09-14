@@ -1,0 +1,113 @@
+#!/bin/bash
+
+echo "test01 - simple map"
+echo ""
+./bsq maps/map01
+echo ""
+echo "-----"
+echo ""
+
+echo "test02 - big map"
+echo ""
+./bsq maps/map02
+echo ""
+echo "-----"
+echo ""
+
+echo "test03 - small map"
+echo ""
+./bsq maps/map03
+echo ""
+echo "-----"
+echo ""
+
+echo "test04 - 1x1-box empty map"
+echo ""
+./bsq maps/map04
+echo ""
+echo "-----"
+echo ""
+
+echo "test05 - 1x1-box obstacle map"
+echo ""
+./bsq maps/map05
+echo ""
+echo "-----"
+echo ""
+
+echo "test06 - map with other characters"
+echo ""
+./bsq maps/map06
+echo ""
+echo "-----"
+echo ""
+
+echo "test07 - added more characters on the map"
+echo ""
+./bsq maps/map07
+echo ""
+echo "-----"
+echo ""
+
+echo "test08 - not valid first line"
+echo ""
+./bsq maps/map08
+echo ""
+echo "-----"
+echo ""
+
+echo "test09 - not a file"
+echo ""
+./bsq maps/map09
+echo ""
+echo "-----"
+echo ""
+
+echo "test10 - empty file"
+echo ""
+./bsq maps/map10
+echo ""
+echo "-----"
+echo ""
+
+echo "test11 - lines not equal"
+echo ""
+./bsq maps/map11
+echo ""
+echo "-----"
+echo ""
+
+echo "test12 - map has only empty tiles"
+echo ""
+./bsq maps/map12
+echo ""
+echo "-----"
+echo ""
+
+echo "test13 - map has ony obstacles"
+echo ""
+./bsq maps/map13
+echo ""
+echo "-----"
+echo ""
+
+echo "test14 - map with only digits"
+echo ""
+./bsq maps/map14
+echo ""
+echo "-----"
+echo ""
+
+echo "test15 - only one row map"
+echo ""
+./bsq maps/map15
+echo ""
+echo "-----"
+echo ""
+
+echo "test16 - only one col map"
+echo ""
+./bsq maps/map16
+echo ""
+echo "-----"
+echo ""

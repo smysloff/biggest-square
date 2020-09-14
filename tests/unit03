@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./bsq maps/map011 maps/map021 maps/091 maps/map061

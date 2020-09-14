@@ -1,0 +1,18 @@
+#!/usr/bin/php
+<?php
+
+if ($argc < 4 || $argc > 5)
+	die ("error: needs rows, cols, density[, chars]");
+
+$x = $argv[1];
+$y = $argv[2];
+$density = $argv[3];
+$chars = $argv[4] ?? ".ox";
+
+echo $y . $chars . "\n";
+for ($i = 0; $i < $y; $i++)
+{
+	for ($j = 0; $j < $x; $j++)
+		echo (random_int($density, 20) > 19) ? $chars[1] : $chars[0];
+	echo "\n";
+}
